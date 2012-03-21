@@ -1,4 +1,4 @@
-#Search Google for the currently selected text.
+#Search anywear for the currently selected text.
 
 This package adds the ability to open any doc using text selection for [Sublime Text 2][1].
 
