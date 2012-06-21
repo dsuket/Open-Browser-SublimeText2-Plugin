@@ -8,5 +8,8 @@ class OpenBrowserCommand(sublime_plugin.TextCommand):
 		selection = ""
 		for region in self.view.sel():
 			selection += self.view.substr(region)
-		if(selection):
-			webbrowser.open_new_tab(url % selection)
+		try:
+			url = url % selection
+		except TypeError:
+			url = url
+		webbrowser.open_new_tab(url)
