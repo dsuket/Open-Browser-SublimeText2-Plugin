@@ -18,4 +18,11 @@ First thing you have to do is to set up some key binding in your user key bingin
 	{ "keys": ["ctrl+alt+c"], "command": "open_browser", "args" : {"url" : "http://api20.cakephp.org/search/%s"}},
 	{ "keys": ["ctrl+alt+h"], "command": "open_browser", "args" : {"url" : "http://fr.php.net/manual-lookup.php?pattern=%s"}},
 
+###Other Examples
+
+You can also open cheat sheet.
+
+	{ "keys": ["super+shift+/"], "command": "open_browser",
+	 "args" : {"url" : "http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html"}},
+
 To use the command select some text, use your key binding and have fun !
